@@ -2,9 +2,9 @@
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg) [![Latest Stable Version](https://img.shields.io/packagist/v/zerosonesfun/flarum-bbcode-button.svg)](https://packagist.org/packages/zerosonesfun/flarum-bbcode-button) [![Total Downloads](https://img.shields.io/packagist/dt/zerosonesfun/flarum-bbcode-button.svg)](https://packagist.org/packages/zerosonesfun/flarum-bbcode-button)
 
-A [Flarum](http://flarum.org) extension. Adds a BBcode button to the toolbar. But, get creative. You may use it for other purposes as well!
+A [Flarum](http://flarum.org) extension. Adds custom BBcode buttons to the toolbar. But, get creative. You may use it for other purposes as well!
 
-## Installation
+## Install
 
 Install with composer:
 
@@ -12,7 +12,7 @@ Install with composer:
 composer require zerosonesfun/flarum-bbcode-button:"*"
 ```
 
-## Updating
+## Update
 
 ```sh
 composer update zerosonesfun/flarum-bbcode-button:"*"
@@ -22,10 +22,10 @@ php flarum cache:clear
 
 ## Uninstall
 
-Deactivate, tap the uninstall button, then run this composer command:
+Deactivate, tap the purge button, then run this composer command:
 
 ```sh
-composer remove zerosonesfun/flarum-bbcode-button:"*"
+composer remove zerosonesfun/flarum-bbcode-button
 ```
 
 ## Links

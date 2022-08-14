@@ -24,7 +24,10 @@ return [
     new Extend\Locales(__DIR__.'/locale'),
     (new Extend\Settings())
     ->serializeToForum('zerosonesfun-bbcode-button.code', 'zerosonesfun-bbcode-button.code')
-    ->serializeToForum('zerosonesfun-bbcode-button.pos', 'zerosonesfun-bbcode-button.pos')
     ->serializeToForum('zerosonesfun-bbcode-button.icon', 'zerosonesfun-bbcode-button.icon')
+    ->serializeToForum('zerosonesfun-bbcode-button.code2', 'zerosonesfun-bbcode-button.code2')
+    ->serializeToForum('zerosonesfun-bbcode-button.icon2', 'zerosonesfun-bbcode-button.icon2')
+    ->serializeToForum('zerosonesfun-bbcode-button.code3', 'zerosonesfun-bbcode-button.code3')
+    ->serializeToForum('zerosonesfun-bbcode-button.icon3', 'zerosonesfun-bbcode-button.icon3')
     ->serializeToForum('zerosonesfun-bbcode-button.intro', 'zerosonesfun-bbcode-button.intro')
 ];
