@@ -1,6 +1,6 @@
 {
-    "name": "zerosonesfun/flarum-bbcode-button",
-    "description": "Adds custom BBCode buttons to the composer toolbar.",
+    "name": "jedafe/flarum-extra-button",
+    "description": "Adds custom buttons to the composer toolbar.",
     "keywords": [
         "flarum"
     ],
