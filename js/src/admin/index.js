@@ -15,7 +15,7 @@ app.initializers.add("zerosonesfun/flarum-bbcode-button", () => {
     {
       setting: "zerosonesfun-bbcode-button.code",
       name: "zerosonesfun-bbcode-button.code",
-      type: "text",
+      type: "textarea",
       placeholder: "[bbcode][/bbcode]",
       help: app.translator.trans( "flarum-bbcode-button.admin.settings.codedesc" ),
       label: app.translator.trans( "flarum-bbcode-button.admin.settings.codelabel" ),
@@ -26,7 +26,7 @@ app.initializers.add("zerosonesfun/flarum-bbcode-button", () => {
     {
       setting: "zerosonesfun-bbcode-button.icon",
       name: "zerosonesfun-bbcode-button.icon",
-      type: "text",
+      type: "textarea",
       placeholder: "fas fa-font",
       help: app.translator.trans( "flarum-bbcode-button.admin.settings.icondesc" ),
       label: app.translator.trans( "flarum-bbcode-button.admin.settings.iconlabel" ),
@@ -37,7 +37,7 @@ app.initializers.add("zerosonesfun/flarum-bbcode-button", () => {
     {
       setting: "zerosonesfun-bbcode-button.code2",
       name: "zerosonesfun-bbcode-button.code2",
-      type: "text",
+      type: "textarea",
       placeholder: "[bbcode][/bbcode]",
       help: app.translator.trans( "flarum-bbcode-button.admin.settings.codedesc2" ),
       label: app.translator.trans( "flarum-bbcode-button.admin.settings.codelabel2" ),
@@ -59,7 +59,7 @@ app.initializers.add("zerosonesfun/flarum-bbcode-button", () => {
     {
       setting: "zerosonesfun-bbcode-button.code3",
       name: "zerosonesfun-bbcode-button.code3",
-      type: "text",
+      type: "textarea",
       placeholder: "[bbcode][/bbcode]",
       help: app.translator.trans( "flarum-bbcode-button.admin.settings.codedesc3" ),
       label: app.translator.trans( "flarum-bbcode-button.admin.settings.codelabel3" ),
